@@ -13,7 +13,6 @@ module.exports = () => {
         })
             .then(user => done(null, user)) // req.user, req.isAuthenticated() 활용 가능
             .catch(err => done(err));
-
     });
 
     // strategy 등록
